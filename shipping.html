@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping.com</title>
+    <link rel="stylesheet" href="main.css">
+    <div id="shipping-box">
+    </head>
+<body id="shipping-background-image">
+    <header>
+        <blockquote>
+            <p>
+                <strong><marquee style="background-color: red;" direction="right">
+                    Kindly input price of a product with respect to the main page 
+                    .Do not forget to fill the user information
+                </marquee>
+                    
+                </strong>
+            </p>
+        </blockquote>
+    </header>
+    <form id="form-shipping" class="form-ship">
+        <fieldset id="fieldset">
+            <legend class="title">
+                <strong>
+                
+                USER INPUTS
+                </strong>
+            </legend>
+            <div>
+                <form>
+                    <label>
+                        <b>
+                            Username:
+                        </b>
+                    </label>
+                    <input type="text" placeholder="Enter username" required maxlength="10">
+                    <br>
+                    <br>
+                    <label >
+                        <b>
+                            Password:
+                        </b>
+                    </label>
+                    <input type="number" required maxlength="8" placeholder="Enter password">
+        <br>
+        <br>
+                </form>
+            </div>
+        </body>
+            <label><strong>Product:</strong><select>
+                <option>none</option>
+                <option class="kettle">Bed</option>
+                <option class="plates">Dining table</option>
+                <option class="sofaset">Cupboard</option>
+                <option class="television">Office Table</option>
+                <option class="vase">Wardrobe</option>
+                <option class="toilet">Wooden table</option>
+                <option>Modern table</option>
+            </select></label>
+            <br>
+            <br>
+            <label><strong>Quantity:</strong></label>
+            <input type="number" placeholder="Enter quantity" required class="quantity-input">
+            <br>
+            <br>
+            <label><strong>Price:</strong></label>
+            <input type="number" placeholder="Enter Price" class="price-input">
+            <br>
+            <br>
+            <P><strong>Note:Free delivery services offered</strong></P>
+            <button class="button-calculate" onclick="handleButton()">Calculate</button>
+            <button class="button-submit">Refresh</button>
+        </fieldset>
+    </form>
+    </div>
+<a href="main.html">
+    <button>Back to main</button>
+</a>
+<script src="index.js"></script>
+</body>
+</html>

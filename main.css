@@ -1,0 +1,337 @@
+body{
+    background-color: rgb(222, 221, 228);
+}
+#nav-links{
+    padding-left: 1050px;
+
+}
+.about:hover{
+    background-color: rgb(109, 94, 240);
+    cursor: pointer;
+}
+.contact:hover{
+    background-color: rgb(109, 94, 240);
+    cursor: pointer;
+}
+.main:hover{
+    background-color: rgb(109, 94, 240);
+    cursor: pointer;
+}
+.shop:hover{
+    background-color: rgb(109, 94, 240);
+    cursor: pointer;
+}
+#logo{
+    width: 37px;
+    height: 37px;
+    position: relative;
+}
+.text-overlay {
+    position: absolute;
+    top: 9%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(156, 21, 21); 
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.text-overlay {
+    position: absolute;
+    top: 9%;
+    left: 8%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(156, 21, 21); 
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.bed-image1{
+    font-size: 30px;
+    position: absolute;
+    top: 15%;
+    left: 37%; 
+
+}
+.bed-image2{
+    font-size: 30px;
+    position: absolute;
+    top: 25%;
+    left: 37%; 
+
+}
+.bed-image3{
+    font-size: 14px;
+    position: absolute;
+    top: 35%;
+    left: 37%; 
+}
+.dining-image4{
+    font-size: 30px;
+    position: absolute;
+    top: 90%;
+    left: 37%; 
+
+}
+.dining-image5{
+    font-size: 30px;
+    position: absolute;
+    top: 100%;
+    left: 37%; 
+
+}
+.dining-image6{
+    font-size: 14px;
+    position: absolute;
+    top: 110%;
+    left: 37%; 
+}
+.kabati-image4{
+    font-size: 30px;
+    position: absolute;
+    top: 190%;
+    left: 37%; 
+
+}
+.kabati-image5{
+    font-size: 30px;
+    position: absolute;
+    top: 200%;
+    left: 37%; 
+
+}
+.kabati-image6{
+    font-size: 14px;
+    position: absolute;
+    top: 210%;
+    left: 37%; 
+}
+.office-image4{
+    font-size: 30px;
+    position: absolute;
+    top: 270%;
+    left: 37%; 
+
+}
+.office-image5{
+    font-size: 30px;
+    position: absolute;
+    top: 280%;
+    left: 37%; 
+
+}
+.office-image6{
+    font-size: 14px;
+    position: absolute;
+    top: 290%;
+    left: 37%; 
+}
+.tb-image4{
+    font-size: 30px;
+    position: absolute;
+    top: 330%;
+    left: 37%; 
+
+}
+.tb-image5{
+    font-size: 30px;
+    position: absolute;
+    top: 340%;
+    left: 37%; 
+
+}
+.tb-image6{
+    font-size: 14px;
+    position: absolute;
+    top: 350%;
+    left: 37%; 
+}
+.drobe-image4{
+    font-size: 30px;
+    position: absolute;
+    top: 410%;
+    left: 37%; 
+
+}
+.drobe-image5{
+    font-size: 30px;
+    position: absolute;
+    top: 420%;
+    left: 37%; 
+
+}
+.drobe-image6{
+    font-size: 14px;
+    position: absolute;
+    top: 430%;
+    left: 37%; 
+}
+.wood-image4{
+    font-size: 30px;
+    position: absolute;
+    top: 490%;
+    left: 37%; 
+
+}
+.wood-image5{
+    font-size: 30px;
+    position: absolute;
+    top: 500%;
+    left: 37%; 
+
+}
+.wood-image6{
+    font-size: 14px;
+    position: absolute;
+    top: 510%;
+    left: 37%; 
+}
+#info{
+    text-align: center;
+    color: blue;
+}
+#number{
+    text-align: center;
+    color:blue;
+}
+#email{
+    text-align: center;
+    color: blue;
+}
+#footer{
+    background-color: rgb(208, 208, 236);
+}
+#back-button:hover{
+    background-color: blue;
+
+}#shop{
+    background-color: blue;
+}
+#shop-header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 80px;
+}
+#image-shop{
+    
+}
+.purchase-button1,.purchase-button2,.purchase-button3,.purchase-button4,.purchase-button5,.purchase-button6,.purchase-button7{
+    background-color: rgb(2, 224, 253);
+    border-color:black ;
+    cursor:pointer;
+}
+#shipping-background-image{
+    background-color:grey;
+    
+}
+
+#shipping-box{
+    text-align: center;
+}
+#form-shipping{
+    height: 1200px;
+    width: 300px;
+    padding-left: 500px;
+   border-radius: 4px;
+    padding-top: 130px;
+}
+.title{
+    color: red;
+}
+.button-submit{
+    background-color: rgb(197, 181, 181);
+    border: color black;
+    cursor: pointer;
+    
+}
+.button-calculate{
+    background-color: rgb(218, 202, 202);
+    border: color black;
+    cursor:pointer;
+}
+#fieldset{
+    margin: auto;
+    border-radius: 12px;
+    border-color: black;
+    
+}
+.messageBody{
+    color: blue;
+}
+#body1{
+    background-color: rgb(193, 248, 248);
+}
+.purchase-button1:hover{
+    background-color: brown;
+}
+.purchase-button2:hover{
+    background-color: brown;
+}
+
+.purchase-button3:hover{
+    background-color: brown;
+}
+.purchase-button4:hover{
+    background-color: brown;
+}
+.purchase-button5:hover{
+    background-color: brown;
+}
+.purchase-button5:hover{
+    background-color: brown;
+}
+.purchase-button6:hover{
+    background-color: brown;
+}
+.purchase-button7:hover{
+    background-color: brown;
+}
+#bed-image:hover{
+    transform: rotate(-2deg);
+}
+#dining-image:hover{
+    transform: rotate(-2deg);
+}
+#kabati-image:hover{
+    transform: rotate(-2deg);
+}
+#wardrobe-image:hover{
+    transform: rotate(-2deg);
+}
+#table-image:hover{
+    transform: rotate(-2deg);
+}
+#wood1-image:hover{
+    transform: rotate(-2deg);
+}
+#office-image:hover{
+    transform: rotate(-2deg);
+}
+.button-calculate{
+    background-color: rgb(231, 173, 197);
+    border: none;
+}
+.button-submit{
+    background-color: rgb(231, 173, 197);
+    border: none;
+}
+#fieldset{
+    border-radius: 23px;
+    border-color: black;
+}
+#image-one{
+    display:flex;
+}
+#image-two{
+    display: flex;
+}
+#image-three{
+    display: flex;
+}
+#iframe{
+    height: 500px;
+    width: 500px;
+    padding-left: 400px;
+}
+#Para{
+    text-align: center;
+}
